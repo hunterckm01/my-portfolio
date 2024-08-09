@@ -15,20 +15,20 @@ function App() {
     <>
     <div className='w-full h-full bg-slate-950'>
 
-    <header className='w-full  '>
-      <Navbar/>
-    </header>
+      <header className=''>
+        <Navbar/>
+      </header>
+        
+      <main className='w-full h-full'>
+          <Home/>
+          <Project/>
+          <About/>
+          <Contact/>
+      </main>
       
-    <main className='w-full h-full'>
-        <Home/>
-        <Project/>
-        <About/>
-        <Contact/>
-    </main>
-    
-    <footer className='w-full h-full'>
-      <FooterTab/>  
-    </footer>
+      <footer className='w-full h-full'>
+        <FooterTab/>  
+      </footer>
     </div>
 
         {/* <div>sdfsdf</div> */}

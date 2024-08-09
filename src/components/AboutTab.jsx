@@ -3,13 +3,13 @@ import AboutImg from '../assets/AboutImg.jpg'
 
 const AboutTab = () => {
     return(
-    <section id = "About" className="w-full bg-slate-950 mt-16">
+    <section id = "About" className="w-full bg-slate-950 tablet:mt-12 mobile:mt-8 pc:mt-16">
         <div className="py-16  text-white pc:max-w-[75%] mobile:max-w-[85%] table:max-w-[90%] mx-auto w-full">
             <div className="flex flex-col items-center gap-4">
                 <h2 className="text-3xl font-bold">About Me</h2>
                 <div className='flex pc:flex-row mobile:flex-col justify-between gap-6 mt-12'>
                     <div className='flex justify-center'>
-                    <img src = {AboutImg} className='max-h-[400px] rounded-md ml-4 grayscale aspect-square hover:grayscale-[25%] hover:transition-all hover:duration-500' loading='lazy'/>
+                    <img src = {AboutImg} className='max-h-[400px] rounded-md ml-4 grayscale-[50%] aspect-square hover:grayscale-[15%] hover:transition-all hover:duration-700 transition-all duration-700' loading='lazy'/>
                     </div>
                     <div className='pc:max-w-[60%] flex flex-col gap-4 mobile:mt-8 pc:mt-2'>
                         <p className="text-lg text-slate-50 font-semibold ">I am a Final Year Student of BCA having Knowledge of programming in HTML , CSS , JS and React. Also I have done little bit of DSA in Linear Data Structure and have fundamental knowledge of C/C++ .

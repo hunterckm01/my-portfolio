@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard.jsx"
 const ProjectTab = () => {
     return(
     <>
-        <section className="bg-slate-950 text-white py-16 w-full mt-28" id = "Project">
+        <section className="bg-slate-950 text-white mobile:py-8 tablet:py-12 pc:py-16 w-full mt-28" id = "Project">
             <div className="pc:max-w-[75%] tablet:max-w-[90%] mobile:max-w-[90%] mx-auto flex flex-col gap-10">
                 <div className="flex pc:justify-between mobile:justify-around">
                     <h1 className="text-3xl font-bold pc:ml-[40%]">My Projects</h1>

@@ -29,7 +29,7 @@ const ContactTab = () => {
     
 
     return(
-        <section id = "Contact" className="w-full max-w-[75%] mx-auto mt-28 mb-8">
+        <section id = "Contact" className="w-full max-w-[75%] mx-auto  mobile:mt-8 tablet:mt-12 pc:mt-16 mb-8">
 
             <p className="text-white text-center mb-12 text-3xl font-bold">Contact Me</p>
 
