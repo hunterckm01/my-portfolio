@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           className:"",
           style:{
             "font-size": "18px",
-            "padding" : "8px",
+            "padding" : "8px 2px 8px 8px",
             "font-weight" : "600",
               },
             }}/>
